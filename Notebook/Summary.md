@@ -28,7 +28,7 @@
 - The retrieval process involves querying the vector database with the user's question and generating answers based on the retrieved context.
 - Extracts and returns the final answer.
 
-## ##7. Invocation
+#### 7. Invocation
 - Defines a chain of operations including retrieving context, processing questions, generating prompts, running the language model, and parsing the output.
 - Invokes the chain with a sample question ("What is gross margin KPIs?").
 - Displays the generated answer, along with relevant information, as the output.
@@ -45,7 +45,7 @@
 - **Definition:** Embeddings are numerical representations of data that capture meaningful relationships between entities. In the context of natural language processing (NLP), word embeddings are vector representations of words, capturing semantic and syntactic similarities.
 - **Additional Info:** Embeddings play a crucial role in machine learning and AI models as they transform textual data into numerical form, enabling computational operations. They encode semantic information about words or entities in a vector space, facilitating tasks such as similarity search and language understanding.
 
-## ##3. Storing
+#### 3. Storing
 - **Definition:** Storing refers to the process of persisting data, such as embeddings, in a structured format for future retrieval and usage.
 - **Additional Info:** In the context of RAG systems, storing involves saving preprocessed data, including embeddings, in a vector database. Vector databases specialize in indexing and storing embeddings for efficient retrieval and similarity search. They enhance traditional database features with capabilities tailored for handling vector data.
 
